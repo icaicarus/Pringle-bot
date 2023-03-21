@@ -29,7 +29,7 @@ async def bot_started(event):
     print("Alive and ready to commit crimes")
 
 # RESPOND TO EMPTY PINGS
-ping_responses = ["hihi :3", "tf do u want", "hello", "the better pringle is here", "wha", "augh", "hrnrgh"]
+ping_responses = ["hihi :3", "what do u want", "hello", "the better pringle is here", "wha", "augh", "hrnrgh"]
 @bot.listen(hikari.GuildMessageCreateEvent)
 async def ping(event):
     if not event.is_human:
