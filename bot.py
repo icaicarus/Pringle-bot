@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 my_token = os.getenv("TOKEN")
-tenor_API = os.getenv("TENOR")
 lava_pass = os.getenv("LAVAPLAYER")
 
 bot = lightbulb.BotApp(
